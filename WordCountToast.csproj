@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<OutputType>WinExe</OutputType>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<Nullable>enable</Nullable>
+		<ApplicationIcon>word-count-toast-logo-gray.ico</ApplicationIcon>
+		<Title>Word Counter</Title>
+		<PackageId>WordCountToast</PackageId>
+		<Authors>rishi</Authors>
+		<Description>Shows a toast containing the word count of the last copied text after copying.</Description>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Content Include="word-count-toast-logo-gray.ico" />
+	</ItemGroup>
+</Project>

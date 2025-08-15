@@ -1,0 +1,39 @@
+## Ignore build outputs
+bin/
+obj/
+
+## Ignore Visual Studio user files
+*.user
+*.rsuser
+*.suo
+
+## Ignore temporary VS config
+.vs/
+
+## Ignore publish output
+publish/
+**/publish/
+
+## Ignore logs and temp files
+*.log
+*.tmp
+
+## Ignore package restore cache
+packages/
+*.nupkg
+
+## Ignore test results
+TestResult*/
+*.VisualState.xml
+
+## Ignore generated files from VS designer (optional if you want to commit them)
+*.Designer.cs
+
+## Ignore OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Ignore JetBrains Rider / ReSharper (if you ever use them)
+.idea/
+_ReSharper*/
